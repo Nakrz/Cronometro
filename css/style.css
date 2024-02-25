@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(../images/fondo.jpeg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 650px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+    background-color: rgba(168, 85, 47, 0.961);
+}
+
+
+.cronometro{
+    display: flex;
+    text-align: center;
+    color: aliceblue;
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.botones button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 100px;
+    border-color: rgba(86, 59, 130, 0.507);
+}
+
+
+#inicioParar img {
+    width: 70px;
+    height: auto;
+}
+
+#inicioParar{
+    background-color: rgb(61, 133, 41);
+}
+#reiniciar{
+    background-color: rgb(190, 93, 80);
+}
+
+#reiniciar img{
+    width: 70px;
+    height: auto;
+}
+
